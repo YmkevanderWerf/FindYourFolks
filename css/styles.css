@@ -1,24 +1,24 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family:'Fira Sans Condensed', sans-serif;;
+	background-color: #f3de2c;
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #7cb518;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #fbb20d;
 }
 
 /* Effect on social media buttons */
@@ -26,10 +26,15 @@ header {
 footer a:hover {
 	opacity: .5;
 }
-
+footer {
+	color: #fb6107
+}
+footer div {
+	background-color: #fbbd20
+}
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #fb6107;
 	font-weight: bold;
 }
