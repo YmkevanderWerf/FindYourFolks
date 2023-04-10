@@ -5,7 +5,7 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family:'Fira Sans Condensed', sans-serif;;
+	font-family:'Fira Sans Condensed', sans-serif;
 	background-color: #f3de2c;
 }
 
@@ -15,6 +15,10 @@ header {
 	background-color: #7cb518;
 }
 
+.carousel-caption {
+	color: white;
+	text-shadow: 3px 3px 10px black
+}
 /* Changing the background color for the navigation bar */
 
 .navbar {
